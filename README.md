@@ -6,8 +6,7 @@ Implement function `check(str, bracketsConfig)`, that for given brackets sequenc
 
 In the second param there is `bracketsConfig` - the array of pairs open-closed brackets. Each subarray includes only 2 elements - opening and closing bracket
 
-```js
-check('()', [['(', ')']]) // -> true
+check('()', [['(', ')']]) // -> true  
 check('((()))()', [['(', ')']]) // -> true
 check('())(', [['(', ')']]) // -> false
 check('([{}])', [['(', ')'], ['[', ']'], ['{', '}']]) // -> true
@@ -21,6 +20,8 @@ check('||', [['|', '|']]) // -> true
 check('|()|', [['(', ')'], ['|', '|']]) // -> true
 check('|(|)', [['(', ')'], ['|', '|']]) // -> false
 check('|()|(||)||', [['(', ')'], ['|', '|']]) // -> true
+
 ```
 
 Write your code in `src/index.js`
+```
